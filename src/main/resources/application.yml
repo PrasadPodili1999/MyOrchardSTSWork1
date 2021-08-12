@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://awsdb.cnxe3vfxdaqh.us-east-2.rds.amazonaws.com:3306/aws_DB
+    username: root
+    password: 9701090124
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate.ddl-auto: create
+    show-sql: true
+    properties.hibernate.format_sql: true
+   
+    
+    
